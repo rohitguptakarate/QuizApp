@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #edf6f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.QuestionPaper{
+    width: 45rem;
+    height: 42rem;
+    margin: 3rem;
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0,0.25) !important;
+    border-radius: 8px;
+   
+
+
+  
+
+}
+.firstsection{
+    margin-top: 2rem;
+
+}
+.firstsection{
+    font-size: 20px;
+}
+#questionbox{
+    width: 40rem;
+    height: 12rem;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 4.5rem 2.5rem;
+    border-radius: 1rem;
+
+    
+}
+.answer,.answer1,.answer2,.answer3,.answer4{
+    width: 18rem;
+    height: 2rem;
+    /* background-color: #d7f4ff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    border: 2px solid #00a6fb;
+    border-radius: 2rem;
+}
+.options{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.showScore{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    gap:15rem;
+    margin: 2rem 0;
+   
+}
+.timehere ,.scorehere{
+    font-size: 1.25rem;
+}
+.quizbtn{
+    margin: 2rem 0;
+}
+#quizbutton{
+    width: 10rem;
+    height: 2rem;
+    border-radius: 2rem;
+    border: indianred;
+    background-color: #00a6fb;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0,0.25) !important;
+    cursor: pointer;
+}
+#opt:hover{
+    background-color: #00a6fb;
+    cursor: pointer;
+
+}
+#start_again{
+    width: 10rem;
+    height: 2rem;
+    border-radius: 2rem;
+    border: indianred;
+    background-color: #00a6fb;
+}
+#Home{
+    width: 10rem;
+    height: 2rem;
+    border-radius: 2rem;
+    border: indianred;
+    background-color: #00a6fb;
+
+}
+.h_g_btn {
+   display: flex;
+    margin: 5px 180px;
+    gap: 2rem;
+}
+#textcolor{
+    color: #00a6fb;
+}
+.demo{
+    padding: 50px
+}

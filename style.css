@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #edf6f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.Maincontainer{
+    width: 45rem;
+    height: 42rem;
+    margin: 3rem;
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0,0.25) !important;
+    border-radius: 8px;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+.firstsection{
+    margin-top: 3rem;
+}
+.Heading,.textname{
+    margin-top: 2rem;
+}
+.Heading h1{
+    color: #00a6fb;
+}
+h3 {
+    margin-top: 1.5rem;
+}
+.textname input{
+    width: 33rem;
+    height: 1.8rem;
+    border-radius: 5px;
+    padding: 10px;
+    
+    border: 1px solid grey;
+    
+    
+}
+.textname button{
+    height: 1.8rem;
+    width: 6rem;
+    border-radius: 5px;
+    background-color: #00a6fb;
+    color: #f8f9fa;
+    border: orchid;
+    cursor: pointer;
+}
+.textname p{
+    color: #adb5bd;
+}
+hr{
+    
+    border: 0;
+    background-color: #6c757d;
+    height: 1.2px;
+    margin: 5px 40px;
+}
+.secondSection h2{
+    margin-top: 2rem;
+    color: #00a6fb;
+}
+.yourchoices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+    
+}
+.choice{
+    width: 18rem;
+    height: 2rem;
+    background-color: #d7f4ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    border: 2px solid #00a6fb;
+    
+    
+    
+
+}

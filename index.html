@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+<!-- Home Page  -->
+<div class="Maincontainer" id="hide">
+    <!-- this is first section  -->
+<div class="firstsection">
+    <div class="logo">
+        <img src="./image/testbookImg.png" alt="Error">
+    </div>
+    <div class="Heading">
+        <h1>Hello user!</h1>
+        <h3>Enter your number to continue the Quiz.</h3>
+    </div>
+    <div class="textname">
+        <label for="name"><input type="text" placeholder="ENTER YOUR NAME..." id="UserName"></label>
+        <label for="btn"><button id="btn" onclick="btn()">ENTER</button></label>
+        <br>
+        <br>
+        <p>You'll have 10 seconds to answer each questions</p>
+    </div>
+    <br>
+</div>
+    <hr>
+
+ <!-- this is second section  -->
+    <div class="secondSection">
+        <h2>Select Category</h2>
+        <br>
+        
+    
+    <div class="yourchoices">
+        <div class="choice" id="clickedpipe">
+            <p>Pipes And Cisterns</p>
+        </div>
+        <div class="choice" id="CSE">
+            <p id="topicName">CSE</p>
+        </div>
+        <div class="choice" id="Math">
+            <p>Math</p> 
+        </div>
+        <div class="choice" id="English">
+            <p>English</p>
+        </div>
+            
+    </div>
+</div>
+</div>
+    
+
+  <!-- here quiz start  -->
+    <div id="demo" style="display: none;" class="QuestionPaper" id="innerbody"  >
+        <p class="firstsection" id="HideHeading">Pipes and Cisterns</p>
+        <p class="firstsection" id="CSE" >CSE</p>
+        <div class="showScore">
+            <div class="timehere">
+                <p id="timinghere">Time : <span id="setTime">10sec</span></p>
+            </div>
+            <div class="scorehere">
+                <p id="displayscore">SCORE :00</p>
+            </div>
+        </div>
+
+        <div id="questionbox">
+            Question ....?
+        </div>
+
+        <div class="options">
+            
+            <div class="answer1" id="opt" value="a">
+                <!-- <button id="clickedbtn" value="a"></button> -->
+                6 HRS
+            </div>
+            <div class="answer2" id="opt" >
+                <!-- <button id="clickedbtn" value="b"></button> -->
+                
+                20/3 HRS
+            </div>
+            <div class="answer3" id="opt">
+                <!-- <button id="clickedbtn" value="c"></button> -->
+                7HRS
+            </div>
+            <div class="answer4" id="opt">
+                <!-- <button id="clickedbtn" value="d"></button> -->
+                15/2HRS
+            </div>
+        </div>
+        <div class="quizbtn">
+            <button id="quizbutton" onclick="quizbutton()">Next Question</button>
+        </div>
+    </div>
+
+
+    <!-- here for result show  -->
+    <div style="display: none;" class="QuestionPaper" id="showresult">
+        <br>
+        <h1 id="textcolor">Quiz Result</h1>
+        <br>
+
+        <p><span id="result_name"></span> your result is :</p>
+        <br>
+        <br>
+        <p>Total Time Taken : <span id="time_taken"></span> seconds</p>
+        <br>
+        <br>
+        <p>Total Question : <span id="total_questions"></span></p>
+        <br>
+        <br>
+        <p >Attempt : <span id="attemptQuestion"></span></p>
+        <br>
+        <br>
+        <p >Correct : <span id="CorrectAns" ></span></p>
+        <br>
+        <br>
+        <p>Wrong : <span id="worngAnss" ></span></p>
+        <br>
+        <br>
+        <p>Percentage : <span id="Percenrage"></span> %</p>
+        <br>
+        <br>
+        <div class="h_g_btn">
+        <button id="start_again" onclick="restartQuiz()">Start Again</button> <button id="Home" onclick="GoHome()">Go To Home</button>
+        </div>
+
+    </div> 
+
+   
+<script src="./app.js"></script>
+</body>
+</html>
