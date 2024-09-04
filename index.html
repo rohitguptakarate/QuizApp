@@ -113,16 +113,16 @@
         <p>Total Time Taken : <span id="time_taken"></span> seconds</p>
         <br>
         <br>
-        <p>Total Question : <span id="total_questions"></span></p>
+        <p>Total Question : <span id="total_questions" class="=Quiz1TotalQues"></span></p>
         <br>
         <br>
-        <p >Attempt : <span id="attemptQuestion"></span></p>
+        <p >Attempt : <span id="attemptQuestion" ></span></p>
         <br>
         <br>
-        <p >Correct : <span id="CorrectAns" ></span></p>
+        <p >Correct : <span id="CorrectAns" class="Quiz1Ans"></span></p>
         <br>
         <br>
-        <p>Wrong : <span id="worngAnss" ></span></p>
+        <p>Wrong : <span id="worngAnss" class="Quiz1Worng"></span></p>
         <br>
         <br>
         <p>Percentage : <span id="Percenrage"></span> %</p>
@@ -133,6 +133,50 @@
         </div>
 
     </div> 
+
+
+
+
+
+      <!-- here Quiz1 start  -->
+      <div  style="display: none;" class="QuestionPaper" id="quiz1" >
+        <p class="firstsection" id="HideHeading">Pipes and Cisterns</p>
+        <div class="showScore">
+            <div class="timehere">
+                <p id="timinghere">Time : <span id="setTime">10sec</span></p>
+            </div>
+            <div class="scorehere">
+                <p id="displayscore">SCORE :00</p>
+            </div>
+        </div>
+
+        <div id="questionbox" class="que1">
+            Question ?
+        </div>
+
+
+        <div class="options " >
+            <div class="answer1 ans1"  id="quiz1Opt" >
+                6 HRS
+            </div>
+
+            <div class="answer2 ans2"  id="quiz1Opt">
+                20/3 HRS
+            </div>
+
+            <div class="answer3 ans3" id="quiz1Opt">
+                 7HRS
+            </div>
+
+            <div class="answer4 ans4" id="quiz1Opt">
+                15/2HRS
+            </div>
+        </div>
+
+        <div class="quizbtn">
+            <button id="quizbutton" onclick="quizbtn()">Next Question</button>
+        </div>
+    </div>
 
    
 <script src="./app.js"></script>
